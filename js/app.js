@@ -57,6 +57,8 @@ app.controller("HomeController", function($scope, $location, AuthenticationServi
 	}
 });
 
+
+// Todavía sin uso...
 app.directive("showsMessageWhenHovered", function() {
 	return {
 		restrict: "A", // A = Attribute, C = CSS Class, E = HTML Element, M = HTML Comment
